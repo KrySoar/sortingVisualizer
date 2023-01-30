@@ -40,7 +40,7 @@ void Visualizer::sort() {
         std::cout << "A: " << val1 << ", B: " << val2 << " swap ?" << (val1 > val2) << std::endl;
         if(val1 > val2)
         {
-            swap(mIndex,mIndex+1);
+            swap_bars(mIndex,mIndex+1);
         }
     }
 
@@ -52,7 +52,7 @@ void Visualizer::sort() {
         mIndex = 0;
 }
 
-void Visualizer::swap(int index1, int index2) {
+void Visualizer::swap_bars(int index1, int index2) {
     Bar &bar1 = mBars.at(index1); 
     Bar &bar2 = mBars.at(index2); 
 

@@ -12,7 +12,7 @@ public:
     Visualizer();
 
     void sort();
-    void swap(int index1, int index2);
+    void swap_bars(int index1, int index2);
 
     void draw(sf::RenderWindow &);
 };

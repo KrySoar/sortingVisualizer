@@ -16,7 +16,7 @@ int main()
 void run()
 {
     sf::RenderWindow window(sf::VideoMode(WIN_WIDTH, WIN_HEIGHT), "Sorting Algorithms Visualizer");
-    //window.setFramerateLimit(1000);
+    window.setFramerateLimit(0);
     Visualizer visualizer;
 
     while (window.isOpen())
